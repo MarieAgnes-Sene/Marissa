@@ -1,0 +1,72 @@
+header nav ul{
+    display: flex;
+    gap: 50px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.text{
+    color: brown;
+}
+.parent .enfant1 h1{
+    color: aquamarine;
+}
+.parent .enfant2 .enfant2-3 h1{
+    color: blanchedalmond;
+}
+.parent{
+    background-color: blue;
+    margin: 10px;
+}
+.fatima{
+    background-color: aqua;
+    h2{
+        color: blueviolet;
+    }
+    p{
+        color: brown;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        font-style: italic;
+    }
+   }
+   .CMR{
+    background-color: yellow;
+    h1{
+        color: aqua;
+        font-size: smaller;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: oblique;   
+       }
+       p{
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;
+           font-style: oblique;
+           line-height: normal;
+           text-decoration: underline;
+       }
+   }
+   .SNG{
+    background-color: aqua;
+   }
+   .Paulin{
+    background-color: blue;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+   }
+   footer{
+    text-align: center;
+    padding: 20;
+    background-color: aquamarine;
+    color: blue;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+   }
+    
